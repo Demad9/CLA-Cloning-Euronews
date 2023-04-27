@@ -81,6 +81,125 @@ svg {
 
 /* Djalil - Start here */
 
+.second-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+article {
+  display: flex;
+  gap: 20px;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+article a {
+  text-decoration: none;
+  font-size:small;
+}
+
+article a:nth-child(2n) {
+  color:rgb(51, 46, 46);
+  font-weight: 700;
+}
+
+article a:nth-child(2n+1) {
+  color:rgb(31, 70, 105);
+}
+
+article img {
+  width: 40vw;
+}
+
+article>div:first-child {
+  position: relative;
+}
+
+.second-section svg {
+  position: absolute;  
+}
+
+article a:nth-child(2n):hover {
+  color:rgb(59, 133, 253);
+}
+
+/* top tag */
+
+.toptag {
+  padding: 10px;
+}
+.toptag ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+}
+
+.toptag a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(64, 108, 202);
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+.toptag li {
+  margin: 5px 0 15px;
+}
+
+.toptag a:hover {
+  background-color: rgb(85, 157, 225);
+}
+
+/* features */
+
+.Features {
+
+  margin: 10px;
+  position: relative;
+
+}
+
+.Features img {
+  width: 100%;
+}
+
+.Features span {
+  background-color: aliceblue;
+  position: absolute;
+  bottom: 40px;
+  padding: 5px;
+  left: 0;
+}
+
+.Features svg {
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+}
+
+.Features a {
+  text-decoration: none;
+  color:black ;
+  font-weight: bold;
+}
+
+.Features span a {
+  font-weight: 400;
+}
+
+.Features a:hover {
+  color:rgb(59, 133, 253);
+}
+
+
 
 /* Lolo - Start here */
 
